@@ -6,8 +6,8 @@ replicaCount: 1
 logLevel: "rudr=info,kube=info"
 
 image:
-  repository: oamdev/rudr
-  tag: latest # We're in pre-release
+  repository: artursouza/rudr-amd64
+  tag: 2 # We're in pre-release
   pullPolicy: Always
 
 # Turning this off will omit the Role and RoleBinding declarations.
